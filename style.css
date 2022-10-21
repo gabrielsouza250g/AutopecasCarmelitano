@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color:#393836;
+}
+
+h1, h2, h3{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.naruto{
+    text-align: center;
+}
+
+.imgnaruto{
+    width: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+footer{
+    background-color:#5b5956;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+.campo{
+    display: flex;
+}
+
+.sugestao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(86, 82, 82);
+    border-radius: 5px;
+    border: 2px solid #222;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.canecas{
+    display: flex;
+    margin: 20px;
+}
+
+.caneca{
+    margin: 20px;
+}
+
+.cadernos{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.camisetas{
+    margin: 40px 0px ;
+    display: flex;
+    justify-content: space-around;
+    background-color: #555451;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    
+}
+.menu li {
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 100px;
+    margin-bottom: 2px;
+    margin-top: 1px;
+    
+}
+header{
+    align-items: center;
+    background-color: #555451;
+    border-bottom: 10px solid rgb(212, 58, 34);
+    display: flex;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+}
+
+.sub{
+    padding-left: 600px;
+    
+    
+    
+}
+.texto{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 10px;
+    
+}
+.quemsomos{
+    background-color: #555451
+}
+
+.logo{
+    display: flex;
+    
+}
